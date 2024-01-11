@@ -96,6 +96,7 @@ for i in my_list:
 print(new_list)
 '''
 
+'''
 cantidad=int(input('cantidad de numeros: '))
 promedio=[]
 for i in range(cantidad):
@@ -108,3 +109,7 @@ if cantidad>0:
     print(f'el resultado seria {sumatoria}')
 else:
     print(f'no se puede realizar ')
+
+
+'''
+

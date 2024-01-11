@@ -1,5 +1,5 @@
 def my_function():
-      print("Hello from a function")
+    print("Hello from a function")
 my_function()
 
 def my_function(fname):
@@ -190,3 +190,30 @@ primo(numero)
 def potencia(base,exponente):
     return base**exponente
 print(potencia(3,5))
+
+
+def suma(a,f):
+    return a+f
+
+def resta(a,f):
+    return a-f
+
+def multiply(a,f):
+    return a*f
+
+def split(a,f):
+    if f != 0:
+        return a/f
+    else:
+        print('error splitting')
+
+
+def calculate(a,f):
+    sumar = suma(a,f)
+    restar = resta(a,f)
+    multiplicar = multiply(a,f)
+    dividir = split(a,f)
+    return sumar, restar,multiplicar, dividir
+
+epa = calculate(2,6)
+print(epa)

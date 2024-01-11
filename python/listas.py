@@ -26,8 +26,8 @@ numeros=[7,8,6,1,7,47,3,1,4,8 ]
 print(numeros)
 print(len(numeros))#tamano
 print(type(numeros))
-print(numeros.count(8))
-numeros.insert(3,15)
+print(numeros.count(8))#cuenta la cantidad de vesces que se encuentra ese numero en la lista
+numeros.insert(3,15)#en la posicion 3 agrego el numero 15
 print(numeros)
 
 numeros.pop(7)
